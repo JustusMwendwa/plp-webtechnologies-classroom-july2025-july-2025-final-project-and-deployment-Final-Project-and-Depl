@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Courses – JoyElite College</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+/>
+</head>
+<body>
+  <!-- Header -->
+<header class="site-header">
+  <div class="container">
+    <a class="brand" href="index.html">JoyElite College</a>
+    <nav class="main-nav" id="mainNav">
+      <button id="navToggle" aria-label="Toggle navigation">☰</button>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="courses.html">Courses</a></li>
+        <li><a href="admission.html">Admission</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+  <main class="container">
+    <h1>Our Courses</h1>
+    <p>JoyElite College offers a wide range of diploma and certificate programs:</p>
+
+    <section class="course-grid">
+      <article>
+        <h2>Information Technology</h2>
+        <p>Learn networking, programming, and cybersecurity to excel in the tech industry.</p>
+      </article>
+      <article>
+        <h2>Business Administration</h2>
+        <p>Gain skills in management, marketing, and entrepreneurship.</p>
+      </article>
+      <article>
+        <h2>Hospitality & Tourism</h2>
+        <p>Training in hotel management, culinary arts, and travel operations.</p>
+      </article>
+      <article>
+        <h2>Education</h2>
+        <p>Prepare to inspire the next generation as a professional educator.</p>
+      </article>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+  <div class="container footer-grid">
+    <div class="footer-left">
+      <p><strong>Location</strong><br>lusaka Rd, Nairobi</p>
+    </div>
+    <div class="footer-center">
+      <p><strong>Quick Links</strong><br>
+        <a href="index.html">Home</a> • 
+        <a href="about.html">About</a> • 
+        <a href="courses.html">Courses</a> • 
+        <a href="admission.html">Admission</a> • 
+        <a href="contact.html">Contact</a>
+      </p>
+    </div>
+    <div class="footer-right">
+      <p><strong>Follow</strong><br>
+        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+      </p>
+    </div>
+  </div>
+  <div class="copyright">
+    &copy; <span id="yearFooter"></span> JoyElite College. All rights reserved.
+  </div>
+</footer>
+<script>
+  document.getElementById('yearFooter').textContent = new Date().getFullYear();
+</script>
+
+
+<script>
+  // Auto-update year
+  document.getElementById('yearFooter').textContent = new Date().getFullYear();
+</script>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
