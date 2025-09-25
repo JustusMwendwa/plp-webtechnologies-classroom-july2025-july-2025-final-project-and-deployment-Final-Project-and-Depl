@@ -1,0 +1,87 @@
+JoyElite College Website – Project Documentation
+1. Overview
+
+The JoyElite College Website is a responsive multipage site built with HTML5, CSS3, and JavaScript.
+It provides visitors with essential information about the college, available courses, and admission procedures, and includes a contact form for inquiries.
+
+2. Objectives
+
+Present JoyElite College in a professional, modern design.
+
+Allow users to view courses and admission details easily.
+
+Demonstrate core web technologies: semantic HTML5, advanced CSS3 styling, and JavaScript interactivity.
+
+Deploy the website online so it’s accessible via a public URL.
+
+3. Features
+
+Five Pages:
+
+Home: Hero section with slider and quick intro.
+
+About: Details of JoyElite College’s mission and vision.
+
+Courses: Grid of offered programs.
+
+Admission: Instructions and downloadable forms.
+
+Contact: Email/contact form with JavaScript validation.
+
+Responsive Navigation Bar with links to all pages.
+
+Image Slider showcasing campus life.
+
+Decorative Footer with location, quick links, and social media icons (Font Awesome).
+
+Smooth CSS Effects (gradients, hover states, transitions).
+
+4. Technologies Used
+Category	Tools/Frameworks
+Languages	HTML5, CSS3, JavaScript
+Icons	Font Awesome CDN
+Deployment	choose one you used (e.g., GitHub Pages / Netlify / Vercel)
+5. File Structure
+joyelite-college/
+│
+├─ index.html
+├─ about.html
+├─ courses.html
+├─ admission.html
+├─ contact.html
+│
+├─ css/
+│   └─ style.css
+├─ js/
+│   └─ script.js
+└─ images/
+    └─ (all site images)
+
+6. Deployment
+
+The site is hosted on [Platform].
+Live URL: https://justusmwendwa.github.io/plp-webtechnologies-classroom-july2025-july-2025-final-project-and-deployment-Final-Project-and-Depl/index.html
+
+(Replace with the actual link once deployed.)
+
+7. Installation / Running Locally
+
+Download or clone the repository.
+Download or clone the repository:
+   ```bash
+   git clone https://github.com/JustusMwendwa/plp-webtechnologies-classroom-july2025-july-2025-final-project-and-deployment-Final-Project-and-Depl.git
+
+Open index.html in any modern browser.
+No additional server configuration is required.
+
+8. Future Enhancements
+
+Add a dynamic backend for online applications and course management.
+
+Implement a CMS for easier content updates.
+
+Integrate analytics for visitor tracking.
+
+9. Author
+**Justus Mwendwa**  
+[GitHub Profile](https://github.com/JustusMwendwa)
